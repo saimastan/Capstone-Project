@@ -395,6 +395,19 @@ Docker, Uvicorn
 ### Development
 Google Colab, GitHub
 
+
+## Git Workflow
+
+This project was developed using a feature-branch workflow.
+
+- `main` contains the final submission.
+- `feature/final-submission` was used for final project updates.
+- The feature branch contains multiple commits and is merged back into `main`.
+- The complete Git history can be inspected using:
+
+```bash
+git log --graph --oneline --all --decorate
+
 ---
 
 # Final Outcome
